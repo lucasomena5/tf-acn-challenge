@@ -1,12 +1,12 @@
 ############################################# TERRAFORM #############################################
 
 terraform {
-  /* backend "s3" {
-    bucket  = "tf-state-file-853595176342"
+  backend "s3" {
+    bucket  = "tf-state-file-735842398159"
     key     = "tf-acn-treinamento/lucasomena/tf-acn-webservers.tfstate"
     region  = "us-east-1"
     profile = "tf-acn-treinamento"
-  } */
+  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
