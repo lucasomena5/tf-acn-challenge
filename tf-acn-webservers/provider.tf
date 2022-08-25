@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket  = "tf-state-file-301243989709"
+    bucket  = "tf-state-file-899589157385"
     key     = "tf-acn-treinamento/lucasomena/tf-acn-webservers.tfstate"
     region  = "us-east-1"
     profile = "tf-acn-treinamento"
